@@ -1,0 +1,219 @@
+/* Reset default margin and padding */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0a89d3; /* Altere esta cor para a cor desejada */
+}
+
+.navbar {
+  background-color: #078bd8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ... outros estilos do menu ... */
+
+.nav-links .search-box {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links .search-box input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.nav-links .search-box button[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  /* ... outros estilos para a exibição responsiva ... */
+
+  .nav-links .search-box {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+}
+
+.icon {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+li input{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0,5%;
+}
+
+
+.left-side-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-side-menu ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.left-side-menu ul li a {
+  text-decoration: none;
+  color: #f0eaea;
+  margin-left: 20%;
+}
+
+.right-side-menu form {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+}
+
+/* Center the search input and button */
+.search-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+/* Set a fixed width for the input field */
+.search-input {
+  width: 200px; /* Adjust the width value as needed */
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: rgb(236, 234, 234);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+/* Content styles */
+.content {
+  background-color: #19109e;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+h2 {
+  color: #faf6f6;
+  margin-top: 20px;
+}
+
+/* Iframe styles */
+iframe {
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Slider styles */
+.slider {
+  margin: 20px;
+  position: relative;
+}
+
+.slides {
+  width: 400%;
+  height: 600px;
+  display: flex;
+  position: relative;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.nav-manual {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.manual-navigation{
+position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.manual-btn {
+  background-color: #0cbe39;
+  border: 1px solid #cf0404;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.manual-btn:hover {
+  background-color: #074388;
+}
+
+/* Previous and Next Buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
